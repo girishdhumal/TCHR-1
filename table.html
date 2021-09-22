@@ -5,13 +5,159 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+         .points-table {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.points-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.points-table th,
+.points-table td {
+  padding: 12px 15px;
+}
+
+.points-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+/* .points-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+} */
+
+.points-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.points-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+    </style>
 </head>
 <body>
-    <table border="2">
-        <tr>HHH</tr>
-        <tr>JJJJ</tr>
-        <tr>JJJ</tr>
-        <tr>JJ</tr>
-    </table>
+    <ul>
+        <li class="head"><a href="index.html" style="color: cyan;font-size: larger;">T20 WORLDCUP 2021</style></a></li>
+        <li><a href="table.html">POINTS TABLE</a></li>
+        
+        <li><a href="venue.html">VENUES</a></li>
+       
+        <li><a href="teams.html">TEAMS</a></li>
+        <li><a href="contries.html">COUNTRIES</a></li>
+        <li><a href="index.html">HOME</a></li>
+      </ul>
+    <h3 style="position: absolute;top: 20%;left: 40%;">POINTS TABLE</h3>
+<table class="points-table">
+  
+  <thead>
+    
+      <tr>
+          <th>RANK</th>
+          <th>TEAM</th>
+          <th>MATCHES PLAYED</th>
+          <th>WON</th>
+          <th>LOST</th>
+          <th>TIED</th>
+          <th>POINTS</th>
+          <th>RUN RATE</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>INDIA</td>
+          <td>4</td>
+          <td>4</td>
+          <td>0</td>
+          <td>0</td>
+          <td>8</td>
+          <td>+1.324</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>ENGLAND</td>
+        <td>4</td>
+        <td>3</td>
+        <td>1</td>
+        <td>0</td>
+        <td>6</td>
+        <td>+1.024</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>NEW ZEALAND</td>
+      <td>4</td>
+      <td>3</td>
+      <td>1</td>
+      <td>0</td>
+      <td>6</td>
+      <td>+0.224</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>SOUTH AFRICA</td>
+    <td>4</td>
+    <td>2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>5</td>
+    <td>+1.324</td>
+</tr>
+<tr>
+  <td>5</td>
+  <td>WEST INDIES</td>
+  <td>4</td>
+  <td>2</td>
+  <td>1</td>
+  <td>1</td>
+  <td>5</td>
+  <td>-1.324</td>
+</tr>
+<tr>
+  <td>6</td>
+  <td>AUSTRALIA</td>
+  <td>4</td>
+  <td>2</td>
+  <td>2</td>
+  <td>0</td>
+  <td>4</td>
+  <td>+1.124</td>
+</tr>
+<tr>
+  <td>7</td>
+  <td>BANGLADESH</td>
+  <td>4</td>
+  <td>1</td>
+  <td>3</td>
+  <td>0</td>
+  <td>2</td>
+  <td>-1.524</td>
+</tr>
+<tr>
+  <td>8</td>
+  <td>PAKISTAN</td>
+  <td>4</td>
+  <td>0</td>
+  <td>4</td>
+  <td>0</td>
+  <td>0</td>
+  <td>-2.324</td>
+</tr>
+   
+  </tbody>
+</table>
+
 </body>
 </html>
